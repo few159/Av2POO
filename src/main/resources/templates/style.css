@@ -1,0 +1,32 @@
+body, ul, h1{
+    margin: 0;
+    padding: 0;
+}
+
+#listaOpcoes{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 25rem;
+  background-color: tomato;
+  margin-left: calc(50% - 12.5rem);
+}
+
+ul li{
+  margin: 10px 0 10px 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: blue;
+  padding: 30px 5rem 30px 5rem;
+  overflow: hidden;
+}
